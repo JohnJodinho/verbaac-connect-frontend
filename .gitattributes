@@ -1,0 +1,26 @@
+# Ensure all text files use LF in the repo
+* text=auto eol=lf
+
+# Mark common binary file types as binary (no line ending changes)
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.ico  binary
+*.pdf  binary
+*.zip  binary
+*.gz   binary
+*.mp4  binary
+*.mp3  binary
+*.woff binary
+*.woff2 binary
+*.ttf  binary
+*.eot  binary
+
+# Scripts should always use LF (important on Linux/macOS)
+*.sh   text eol=lf
+*.bash text eol=lf
+
+# Windows batch files should always use CRLF
+*.bat  text eol=crlf
+*.cmd  text eol=crlf
