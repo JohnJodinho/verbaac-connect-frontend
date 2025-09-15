@@ -1,6 +1,6 @@
 import * as React from "react"
 
-import { cn } from "@/lib/utils"
+import { cn } from "../../lib/utils"
 
 const Card = React.forwardRef<
   HTMLDivElement,
@@ -9,10 +9,11 @@ const Card = React.forwardRef<
   <div
     ref={ref}
     className={cn(
-      "rounded-xl border bg-card text-card-foreground shadow",
+      "rounded-2xl border bg-card text-card-foreground shadow transition-transform duration-200 hover:shadow-lg hover:scale-105",
       className
     )}
     {...props}
+    aria-label={props['aria-label'] || 'Card'}
   />
 ))
 Card.displayName = "Card"

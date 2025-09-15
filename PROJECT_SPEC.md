@@ -145,6 +145,7 @@ src/
 - **Skeleton Loader** (loading states)  
 
 ### Feature Components
+- Just an overview. Detailed in COMPONENT_GUIDELINES.md
 - **ListingCard** → Housing/marketplace preview card  
 - **FilterSidebar** → Filtering options (price, location, university)  
 - **SearchBar** → Global and module-specific search  
@@ -184,7 +185,7 @@ src/
 
 ## ✅ Deliverables for Frontend
 
-- All pages scaffolded with placeholder content  
+- All pages scaffolded 
 - Routing fully set up with React Router v6  
 - Layouts applied (MainLayout, AuthLayout, DashboardLayout)  
 - Global theme and Tailwind configured  
